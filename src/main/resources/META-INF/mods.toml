@@ -1,0 +1,19 @@
+modLoader="javafml" #mandatory
+loaderVersion="[45,)" #mandatory
+license="All rights reserved"
+[[mods]] #mandatory
+modId="rmemes" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Realz' Memes" #mandatory
+# A file name (in the root of the mod JAR) containing a logo for display
+logoFile="examplemod.png" #optional
+# A text field displayed in the mod UI
+credits="Thanks to Realz for being so handsome" #optional
+# A text field displayed in the mod UI
+authors="Realz" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''What is love, if not for pancakes?'''
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"
