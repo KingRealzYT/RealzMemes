@@ -1,2 +1,4 @@
-"item.rmemes.meme_essence": "Black Iron Shard",
-"item_group.rmemes.realzmemes":"Realz Memes"
+{
+  "item.rmemes.meme_essence": "Meme Essence",
+  "creativetab.rmemes.memes_tab": "Realz's Memes"
+}

@@ -14,16 +14,4 @@ public class IngotBase extends Item {
     public IngotBase() {
         super(new Item.Properties());
     }
-
-    @SubscribeEvent
-    public void buildContents(CreativeModeTabEvent.Register event) {
-        event.registerCreativeModeTab(new ResourceLocation(MOD_ID, "realzmemes"), builder ->
-                builder.title(Component.translatable("item_group." + MOD_ID + ".realzmemes"))
-                        .icon(() -> new ItemStack(ModItems.MEME_ESSENCE
-                                .get()))
-                        .displayItems((params, output) -> {
-                            output.accept(ModItems.MEME_ESSENCE.get());
-                        })
-        );
-    }
 }
